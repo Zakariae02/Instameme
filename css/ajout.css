@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(175, 175, 230);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav input {
+  margin: 0 20px;
+}
+
+.nav button {
+  padding: 5px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.profile {
+  align-self: center;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.profile a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile a:hover {
+  background-color: #ddd;
+  color: #555;
+  cursor: pointer;
+}
+.link {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: -100px;
+}
+
+.link:hover {
+  background-color: #ddd;
+  color: #555;
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="file"],
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #e8e8e8;
+}

@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 60px;
+  background-color: rgb(175, 175, 230);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav input {
+  margin: 0 20px;
+}
+
+.nav button {
+  padding: 5px;
+}
+
+.profile {
+  align-self: center;
+  margin-right: 30px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 50px;
+  padding: 40px;
+  margin-left: 20px;
+}
+.photo {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.photo img {
+  width: 100%;
+  height: auto;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.actions button {
+  padding: 5px;
+}
+.description {
+  padding-top: 5px;
+}
+.comments {
+  padding-top: 5px;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.profile a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.profile a:hover {
+  background-color: #ddd;
+  color: #555;
+  cursor: pointer;
+}
+.link {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  margin-left: -100px;
+}
+
+.link:hover {
+  background-color: #ddd;
+  color: #555;
+  cursor: pointer;
+}
